@@ -1,8 +1,8 @@
-from environs import Env
+import os
+from dotenv import load_dotenv
 
-# environs kutubxonasidan foydalanish
-env = Env()
-env.read_env()
+# .env faylini yuklash
+load_dotenv()
 
-# .env fayl ichidan quyidagilarni o'qiymiz
-BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
+# Tokenni o'zgaruvchiga olish
+BOT_TOKEN = os.getenv("BOT_TOKEN")
