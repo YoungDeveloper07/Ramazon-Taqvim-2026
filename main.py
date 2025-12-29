@@ -21,7 +21,7 @@ async def start_fake_server():
     runner = web.AppRunner(app)
     await runner.setup()
     # Koyeb taqdim etadigan PORT orqali ishga tushadi
-    port = int(os.getenv("PORT", 8080))
+    port = int(os.getenv("PORT", 8000))
     site = web.TCPSite(runner, '0.0.0.0', port)
     await site.start()
 
@@ -235,5 +235,6 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
