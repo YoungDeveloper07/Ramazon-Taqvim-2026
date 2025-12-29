@@ -1,16 +1,16 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types, F
+from config import BOT_TOKEN
 from aiogram.filters import Command
 from bs4.builder import HTML
-
 import keyboards as kb
 from api import hamma_vaqtlar
 logging.basicConfig(level=logging.INFO)
 
 
 dp = Dispatcher()
-bot = Bot(token='8504884712:AAHpmW17sVp8E2IVNWfBzMpK2ScAdhpguGI')
+bot = Bot(token=BOT_TOKEN)
 #start komandasi berilgandagi buyruqlar--------------------------------
 @dp.message(Command("start", "help"))
 async def send_welcome(message: types.Message):
@@ -203,4 +203,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("Bot o'chirildi.")
     except Exception as e:
+
         print(f"Kutilmagan xato: {e}")
