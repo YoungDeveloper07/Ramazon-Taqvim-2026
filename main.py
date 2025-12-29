@@ -133,7 +133,7 @@ async def universal_callback_handler(callback: types.CallbackQuery):
                 f"📍 <b>{shahar.capitalize()}: {v['shahar']}</b>\n\n"
                 f"🏙 <b>Saharlik: {v['bomdod']} gacha</b>\n"
                 f"🌆 <b>Iftorlik: {v['shom']} dan so'ng</b>\n\n"
-                f"<i><b>Namoz vaqtlari</b></i>"
+                f"<i><b>Namoz vaqtlari</b></i>\n"
                 f"🏙 <b>Bamdod: {v['bomdod']}</b>\n"
                 f"🌅 <b>Quyosh: {v['quyosh']}</b>\n"
                 f"☀️ <b>Peshin: {v['peshin']}</b>\n"
@@ -161,7 +161,7 @@ async def universal_callback_handler(callback: types.CallbackQuery):
                     f"📍 <b>{data.capitalize()}: {v['shahar']}</b>\n\n"
                     f"🏙 <b>Saharlik: {v['bomdod']} gacha</b>\n"
                     f"🌆 <b>Iftorlik: {v['shom']} dan so'ng</b>\n\n"
-                     f"<i><b>Namoz vaqtlari</b></i>"
+                     f"<i><b>Namoz vaqtlari</b></i>\n"
                     f"🏙 <b>Bamdod: {v['bomdod']}</b>\n"
                     f"🌅 <b>Quyosh: {v['quyosh']}</b>\n"
                     f"☀️ <b>Peshin: {v['peshin']}</b>\n"
@@ -205,3 +205,4 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
