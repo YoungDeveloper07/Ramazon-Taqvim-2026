@@ -70,6 +70,21 @@ async def ilm_maskani(message: types.Message):
         reply_markup=kb.ilm_maskani
     )
 
+@dp.callback_query(F.data == "namoz")
+async def namoz_ilm_maskani(callback: types.CallbackQuery, bot: Bot):
+    CHANNEL_ID = -1002975992890  # Kanalingiz IDsi
+    POST_ID = 24  # Kanaldagi ma'lumot posti IDsi
+
+    # Avval javob beramiz (soat belgisi ketishi uchun)
+    await callback.answer("Ma'lumot yuborilmoqda...")
+
+    # Kanaldagi postni foydalanuvchiga nusxalab yuboramiz
+    await bot.copy_message(
+        chat_id=callback.from_user.id,
+        from_chat_id=CHANNEL_ID,
+        message_id=POST_ID
+    )
+
 #--Ramazon Taqvimi---------------------------------------------------------------------------
 
 @dp.message(F.text == "Taqvim")
@@ -235,6 +250,7 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
 
