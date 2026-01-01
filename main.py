@@ -14,6 +14,18 @@ from aiohttp import web
 
 dp = Dispatcher()
 bot = Bot(token=BOT_TOKEN)
+async def main():
+    # Render uchun kichik veb-server (portni band qilish uchun)
+    app = web.Application()
+    app.router.add_get("/", lambda r: web.Response(text="Bot is running!"))
+    runner = web.AppRunner(app)
+    await runner.setup()
+    port = int(os.environ.get("PORT", 10000))
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+
+    print(f"Bot {port} portida ishga tushdi...")
+    await dp.start_polling(bot)
 #start komandasi berilgandagi buyruqlar--------------------------------
 @dp.message(Command("start", "help"))
 async def send_welcome(message: types.Message):
@@ -223,6 +235,7 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
 
