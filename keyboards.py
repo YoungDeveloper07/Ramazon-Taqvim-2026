@@ -26,7 +26,7 @@ namoz_buttons = [
         
     ],
     [
-        InlineKeyboardButton(text = 'Farg\'ona', callback_data='fagona'),
+        InlineKeyboardButton(text = 'Farg\'ona', callback_data='fargona'),
         InlineKeyboardButton(text = 'Sirdaryo', callback_data='sirdaryo'),
         InlineKeyboardButton(text = 'Jizzax', callback_data='jizzax')
         
@@ -327,3 +327,4 @@ ilm_markup = [
     ]
 ]
 ilm_maskani = InlineKeyboardMarkup(inline_keyboard=ilm_markup)
+
