@@ -11,33 +11,6 @@ logging.basicConfig(level=logging.INFO)
 
 from aiohttp import web
 
-# 1. Koyeb uxlab qolmasligi uchun kichik veb-server
-async def handle(request):
-    return web.Response(text="Bot is running!")
-
-async def start_fake_server():
-    app = web.Application()
-    app.router.add_get('/', handle)
-    runner = web.AppRunner(app)
-    await runner.setup()
-    # Koyeb taqdim etadigan PORT orqali ishga tushadi
-    port = int(os.getenv("PORT", 8000))
-    site = web.TCPSite(runner, '0.0.0.0', port)
-    await site.start()
-
-# 2. Botni ishga tushirish funksiyasi
-async def main():
-    bot = Bot(token=BOT_TOKEN)
-    dp = Dispatcher()
-
-    # Parallel ravishda veb-serverni ham ishga tushiramiz
-    asyncio.create_task(start_fake_server())
-
-    print("Bot muvaffaqiyatli ishga tushdi...")
-    # Bu yerda sizning barcha handlerlaringiz (start, menu va h.k.) bo'lishi kerak
-    # Masalan: dp.include_router(your_router)
-    
-    await dp.start_polling(bot)
 
 dp = Dispatcher()
 bot = Bot(token=BOT_TOKEN)
@@ -250,6 +223,7 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
 
