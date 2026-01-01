@@ -88,7 +88,7 @@ viloyatlar_lugati = {
     "surxandaryo": kb.surxandaryo_tuman,
     "buxoro": kb.buxoro_tuman,
     "navoiy": kb.navoiy_tuman,
-    "qashqadaro": kb.qashqadaryo_tuman,
+    "qashqadaryo": kb.qashqadaryo_tuman,
     "samarqand": kb.samarqand_tuman,
     "qoraqalpogiston": kb.qoraqalpogiston_tuman,
     "xorazm": kb.xorazm_tuman,
@@ -235,6 +235,7 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
 
