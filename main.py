@@ -95,19 +95,19 @@ viloyatlar_lugati = {
     "sirdaryo": kb.sirdaryo_tuman
 }
 taqvim_rasmlari = {
-    "toshkent": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "namangan": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "andijon": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "fargona": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "jizzax": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "surxandaryo": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "buxoro": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "navoiy": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "qashqadaro": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "samarqand": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "qoraqalpogiston": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "xorazm": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
-    "sirdaryo": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ'
+    #"toshkent": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"namangan": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"andijon": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"fargona": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"jizzax": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"surxandaryo": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"buxoro": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"navoiy": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"qashqadaro": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"samarqand": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"qoraqalpogiston": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"xorazm": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ',
+    #"sirdaryo": 'AgACAgIAAxkBAAOMaUrfSWnlBbfBybgl7T3BdYIAAdkCAALuDWsb_y9ASaZW0wd6Y8xmAQADAgADeQADNgQ'
 }
 
 
@@ -235,6 +235,7 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
 
