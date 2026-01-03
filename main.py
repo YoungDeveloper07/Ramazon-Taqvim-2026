@@ -69,7 +69,42 @@ async def namoz_ilm_maskani(callback: types.CallbackQuery, bot: Bot):
         from_chat_id=CHANNEL_ID,
         message_id=POST_ID
     )
+@dp.callback_query(F.data == "haj")
+async def namoz_ilm_maskani(callback: types.CallbackQuery, bot: Bot):
+        CHANNEL_ID = -1002975992890
+        POST_ID = 26
 
+        await callback.answer("Ma'lumot yuborilmoqda...")
+
+        await bot.copy_message(
+            chat_id=callback.from_user.id,
+            from_chat_id=CHANNEL_ID,
+            message_id=POST_ID
+        )
+@dp.callback_query(F.data == "roza")
+async def namoz_ilm_maskani(callback: types.CallbackQuery, bot: Bot):
+        CHANNEL_ID = -1002975992890
+        POST_ID = 27
+
+        await callback.answer("Ma'lumot yuborilmoqda...")
+
+        await bot.copy_message(
+            chat_id=callback.from_user.id,
+            from_chat_id=CHANNEL_ID,
+            message_id=POST_ID
+        )
+@dp.callback_query(F.data == "zakot")
+async def namoz_ilm_maskani(callback: types.CallbackQuery, bot: Bot):
+        CHANNEL_ID = -1002975992890
+        POST_ID = 28
+
+        await callback.answer("Ma'lumot yuborilmoqda...")
+
+        await bot.copy_message(
+            chat_id=callback.from_user.id,
+            from_chat_id=CHANNEL_ID,
+            message_id=POST_ID
+        )
 #--Ramazon Taqvimi---------------------------------------------------------------------------
 
 @dp.message(F.text == "Taqvim")
@@ -235,6 +270,7 @@ if __name__ == '__main__':
     except Exception as e:
 
         print(f"Kutilmagan xato: {e}")
+
 
 
 
